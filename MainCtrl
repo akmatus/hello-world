@@ -1,0 +1,21 @@
+var MainCtrl = function ($scope) {
+	$scope.houseGroup = {
+		name: "Olga",
+		age: 14,
+		events: [
+			{ name: "Ula", description: "gdgd;lg Ula" },
+			{ name: "Kula", description: "kjkj Kula" }
+		],
+		foods: [
+			{ name: "apple", description: "dsfdfsad" },
+			{ name: "shmapple", description: "kjkj Kula" },
+			{ name: "shmapples", description: "kjkj Dula" },
+			{ name: "shmappleses", description: "kjkj Vula" }
+		]
+		
+	};
+	$scope.notify = function (description) {
+		alert(description)
+	}
+};
+
